@@ -1,0 +1,8 @@
+services:
+    dmzx.linkmenu.listener:
+        class: dmzx\linkmenu\event\listener
+        arguments:
+            - @template
+            - @config
+        tags:
+            - { name: event.listener }

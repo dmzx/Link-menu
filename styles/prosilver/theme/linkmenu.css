@@ -1,0 +1,50 @@
+a.menu-link {
+    background-image: url("./images/bg_header.gif");
+    font-weight: bold;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    color: #FFF;
+}
+
+a.menu-link:hover {
+    background-position: 6px 60%;
+    color: #9b0000;
+}
+
+div.menu-block {
+    border-left: #FFFFFF solid 1px;
+    padding-left: 6px;
+}
+
+div.menu-row-first {
+    border-bottom: 1px solid #FFFFFF;
+    padding-top: 4px;
+    padding-left: 4px;
+    padding-bottom: 4px;
+}
+
+div.menu-row {
+    border-bottom: 1px solid #FFFFFF;
+    padding-top: 4px;
+    padding-left: 4px;
+    padding-bottom: 4px;
+}
+
+div.menu-row-last {
+    padding-top: 4px;
+    padding-left: 4px;
+    padding-bottom: 4px;
+}
+	
+.headerbar #search-box {
+      display: none !important;
+}
+.navbar #search-box{
+      box-shadow:none;
+}
+.navbar #button {
+      border-radius: 0px 4px 4px 0px;
+}
+.rtl .navbar #button {
+      border-radius: 4px 0px 0px 4px;
+}
