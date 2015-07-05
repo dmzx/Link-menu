@@ -41,6 +41,7 @@ var $u_action;
 
 			trigger_error($user->lang['ACP_LINKMENU_CONFIG_SAVED'] . adm_back_link($this->u_action));
 		}
+		
 		$template->assign_vars(array(
 			'ACP_LINKMENU_VERSION'			=> (isset($config['linkmenu_version'])) ? $config['linkmenu_version'] : '',
 			'ACP_LINKMENU_ENABLE'			=> (!empty($config['linkmenu_enable'])) ? true : false,

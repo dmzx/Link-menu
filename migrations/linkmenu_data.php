@@ -11,7 +11,6 @@ namespace dmzx\linkmenu\migrations;
 
 class linkmenu_data extends \phpbb\db\migration\migration
 {
-
 	public function update_data()
 	{
 		return array(

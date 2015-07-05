@@ -17,7 +17,7 @@ class linkmenu_info
 			'filename'	=> '\dmzx\linkmenu\acp\pmregbar_module',
 			'title'		=> 'ACP_LINKMENU',
 			'modes'		=> array(
-			'config'	=> array('title' => 'ACP_LINKMENU_CONFIG_SETTINGS', 'auth' => 'ext_dmzx/linkmenu && acl_a_board', 'cat' => array('ACP_LINKMENU')),
+				'config'	=> array('title' => 'ACP_LINKMENU_CONFIG_SETTINGS', 'auth' => 'ext_dmzx/linkmenu && acl_a_board', 'cat' => array('ACP_LINKMENU')),
 			),
 		);
 	}
