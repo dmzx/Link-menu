@@ -14,7 +14,7 @@ use Symfony\Component\EventDispatcher\EventSubscriberInterface;
 class listener implements EventSubscriberInterface
 {
 	protected $template;
-	
+
 	protected $config;
 
 	public function __construct(\phpbb\template\template $template, \phpbb\config\config $config)
