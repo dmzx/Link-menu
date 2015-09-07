@@ -16,8 +16,8 @@ class linkmenu_module extends \phpbb\db\migration\migration
 		return array(
 			array('module.add', array('acp', 'ACP_CAT_DOT_MODS', 'ACP_LINKMENU')),
 			array('module.add', array(
-			'acp', 'ACP_LINKMENU', array(
-				'module_basename'	=> '\dmzx\linkmenu\acp\linkmenu_module', 'modes'		=> array('config'),
+				'acp', 'ACP_LINKMENU', array(
+				'module_basename' => '\dmzx\linkmenu\acp\linkmenu_module', 'modes' => array('config'),
 				),
 			)),
 		);
